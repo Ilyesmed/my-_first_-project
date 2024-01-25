@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    font-family: 'Roboto' sans-serif;
+}
+ img{
+    width: 100px;
+}
+#testemonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 7rem;
+}
+#testemonials h2{
+    font-size: 36px;
+
+}
+
+#testemonials .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+   
+    
+}
+
+
+
+.border{
+    height: 3px;
+    width: 120px;
+    background: red;
+    margin: 15px;0
+}
+#testemonials .row .columns{
+    background-color: white;
+    margin: 0 1rem;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+#testemonials .row .columns img {
+    width: 120px;
+    border-radius: 30%;
+    margin-bottom: 15px;
+}
+#testemonials .row .columns h3{
+    font-size: 20px;
+}
+#testemonials .row .columns .stars{
+    margin: 15px 0;
+    color: red;
+}
+#testemonials .row .columns p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+}
