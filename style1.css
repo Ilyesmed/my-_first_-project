@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    padding 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+/* Utility Classes */ 
+.primary-text {
+    color: #e4b95b;
+}
+span{
+    color: #fff;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.btn-primary{
+    color: #fff;
+    border: solid #fff;
+}
+.btn-secondary{
+    color: #fff;
+    background: #383848;
+    margin-top: 2rem;
+}
+.btn-primary:hover{
+    background: #cabd74;
+    
+}
+
+.btn-secondary:hover{
+    background: #e4b95b;
+    position: relative;
+}
+/*Header Start */ 
+header{
+    height: 100vh;
+    background: url(../Food-Lover-main/img/home_bg.jpeg) center center/cover no-repeat;
+    position: relative;
+    
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+#navbar img {
+    width: 80px;
+    margin-left: 100px;
+}
+#navbar ul {
+    display: flex;
+    margin-right:100px ;
+
+
+}
+#navbar ul li a {
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+}
+#navbar ul li a:hover{
+    border-bottom : 2px solid #e4b95b
+}
+header .content{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+
+}
+header .content h1{
+    font-size: 40px;
+    color: #fff;
+}
+header .content p {
+    margin: 20px 0 40px;
+    color: #fff;
+    
+}
+header::before{
+    content:" ";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0,0,0,0.6) ;   
+}
+
+header *{
+    z-index: 10;
+} 
+/* Header End */
+
+
+
+/* About Start */
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+#about .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#offers.title{
+    text-align: center;
+    margin-bottom: 4rem
+}
+#about h2{
+    color: #383848;
+}
+#about h2,
+#offers h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+#about .title p {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+#about .about-content img {
+    width: 450px;
+    margin-top: 30px;
+}
+#about .about-content p{
+    color: #9a9a9a;
+    margin-right: 5rem;
+    font-weight: 500;
+    line-height: 1.6;
+} 
+/* About End */
+/* Offers Start */
+#offers{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background: url(./Food-Lover-main/img/offer-background.jpg) center center/cover fixed;
+    
+}
+#offers h2{
+    color: #e4b95b;
+    text-align: center;
+    text-shadow: #cabd74;
+}
+#offers .title p{
+    color: orangered;
+    font-weight: 500;
+    text-align: center;
+}
+#offers .offers-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+#offers .offers-items img{
+width: 200px;
+}
+#offers .offers-items h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+#offers .offers-items p {
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 30px;
+}
+#offers .offers-items span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+
+/* Offers End */
+
+

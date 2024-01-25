@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Slab", sans-serif;
+   
+}
+.container{
+    margin: 0 7rem;
+    height: 100%;
+   
+
+}
+a {
+    text-decoration: none;
+
+
+}
+ul {
+    list-style: none;
+}
+#home{
+    height: 100vh;
+    background: #0162be;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    
+}
+nav .Logo{
+    width: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+
+    
+}
+nav ul a{
+    color: #fff;
+    padding: 20px;
+}
+#home .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+#home .content img{
+    width: 220px;
+    animation: animation1 1s ease-out;
+
+}
+#home .content .content-text h1  {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+#home .content .content-text h1 span{
+    font-size: 70px;
+}
+#home .content .content-text p {
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    width: 60%;
+}
+.btn {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: black; 
+    transition: all 0s;
+  
+}
+.btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+.social{
+    margin-left: 3rem;
+    animation: Animation1 1s ease-out; 
+   
+}
+.social i{
+    color: #fff;
+    font-size: 50px;
+    margin: 10px 0;
+    display: block;    
+
+   
+    
+    
+}
+.pepsi-types{
+    display: block;
+    width: 150px;
+    align-items: center;
+    animation: animation2 1s ease-out;
+    
+    
+
+}
+@keyframes animation1 {
+    0% {
+        transform: translateX(500px);
+
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes animation2 {
+    0% {
+        transform: translateY(200px);
+
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+/* Tablet */
+@media (max-width: 900px) {
+    body {
+        display: none;
+    }
+}
+
+
+
+
+
+}
+
+
